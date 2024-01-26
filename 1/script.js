@@ -31,15 +31,15 @@ const register = () => {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     const confirmPassword = document.getElementById("confirm-password").value;
-    if (password == confirmPassword) {
+    if (password == confirmPassword && username != "" && password != "") {
         loggedIn = true;
         window.location.href = "index.html";
         logged(username);
+        localStorage.setItem("Users", JSON.stringify([username, password]));
     } else {
         alert("Password and confirm password is not match");
         loggedIn = false;
     }
-    localStorage.setItem("Users", JSON.stringify([username, password]));
 };
 
 const logout = () => {
