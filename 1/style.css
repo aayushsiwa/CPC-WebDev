@@ -1,0 +1,49 @@
+.form-label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-color: aliceblue;
+    box-shadow: 0 0 10px rgb(128, 112, 215);
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #280a4a;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+.form-control {
+    border-radius: 0.5rem;
+    border-color: #4c5baf;
+}
+
+#login-button {
+    background-color: #4c5baf;
+    border-color: #4c5baf;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
