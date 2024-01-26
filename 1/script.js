@@ -13,14 +13,14 @@ const login = () => {
     const password = document.getElementById("password").value;
     if (username == "admin" && password == "admin") {
         loggedIn = true;
-        window.location.href = "home.html";
+        window.location.href = "index.html";
         logged(username);
     } else if (
         username == JSON.parse(localStorage.getItem("Users"))[0] &&
         password == JSON.parse(localStorage.getItem("Users"))[1]
     ) {
         loggedIn = true;
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     } else {
         loggedIn = false;
         alert("Username or password is incorrect");
@@ -33,7 +33,7 @@ const register = () => {
     const confirmPassword = document.getElementById("confirm-password").value;
     if (password == confirmPassword) {
         loggedIn = true;
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     } else {
         alert("Password and confirm password is not match");
         loggedIn = false;
