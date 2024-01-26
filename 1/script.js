@@ -34,6 +34,7 @@ const register = () => {
     if (password == confirmPassword) {
         loggedIn = true;
         window.location.href = "index.html";
+        logged(username);
     } else {
         alert("Password and confirm password is not match");
         loggedIn = false;
