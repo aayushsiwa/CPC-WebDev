@@ -7,12 +7,14 @@ export default function submit() {
 
     // Paste the code from Firebase
     const firebaseConfig = {
-        apiKey: "YOUR_API_KEY",
-        authDomain: "Your_AuthDomain",
-        projectId: "YOUR_PROJECT_ID",
-        storageBucket: "YOUR_STORAGE_BUCKET",
-        messagingSenderId: "YOUR_SENDER_ID",
-        appId: "YOUR_APP_ID"
+        apiKey: "AIzaSyA1HQBNi5MrCuWQLKRXFecc7PPN79v6r00",
+        authDomain: "cpc-task-2.firebaseapp.com",
+        databaseURL: "https://cpc-task-2-default-rtdb.firebaseio.com",
+        projectId: "cpc-task-2",
+        storageBucket: "cpc-task-2.appspot.com",
+        messagingSenderId: "258116121733",
+        appId: "1:258116121733:web:5e45c6a7f5c79cfec765ec",
+        measurementId: "G-SKQEFL2V8P",
     };
 
     // Initialize Firebase
